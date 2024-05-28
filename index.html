@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Store</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Product Store</div>
+        <div class="search">
+            <input type="text" id="search-bar" placeholder="Search for products...">
+        </div>
+        <div class="cart">
+            <button id="cart-button">
+                Cart (<span id="cart-count">0</span>)
+            </button>
+            <div id="cart-dropdown" class="cart-dropdown" style="display: none;">
+                <h2>Your Cart</h2>
+                <ul></ul>
+            </div>
+        </div>
+    </nav>
+    <h1><marquee>Ubaid Store Products</marquee></h1>
+    <div id="product-container"></div>
+    <footer>
+        <p>&copy; 2024 Ubaid's Store</p>
+    </footer>
+    <script src="todo.js"></script>
+</body>
+</html>
